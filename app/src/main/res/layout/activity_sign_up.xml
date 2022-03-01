@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="FIRST NAME:"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_frame"
+        android:hint="Robertson"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="LAST NAME:"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_frame"
+        android:hint="Robertson"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="YOUR EMAIL:"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_frame"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="PASSWORD:"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_frame"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="YOUR PHONENUMBER:"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_frame"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/tvsignUp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#D62226"
+        android:padding="20dp"
+        android:text="SIGN UP"
+        android:textSize="20sp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Donthaveaccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="15dp"
+                    android:text="Already have an account? "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/etlogIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="30dp"
+                    android:text=" LOG IN"
+                    android:textColor="#D62226" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

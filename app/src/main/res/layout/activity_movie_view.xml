@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #020d18"
+    android:orientation="vertical"
+    android:id="@+id/movReview"
+    tools:context=".MovieView">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginVertical="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textColor="@color/white"
+        android:layout_marginVertical="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/movieDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Movie description"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp" />
+
+    <TextView
+        android:id="@+id/movieReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Release Date"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp" />
+
+    <TextView
+        android:id="@+id/movieCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Category"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp" />
+
+    <TextView
+        android:id="@+id/movieShowTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show time"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp" />
+
+    <TextView
+        android:id="@+id/moviePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="5dp" />
+
+    <EditText
+        android:layout_marginVertical="10dp"
+        android:id="@+id/etSeat"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:hint="Seat"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#D62226"
+        android:text="Book Now" />
+
+
+
+</LinearLayout>
